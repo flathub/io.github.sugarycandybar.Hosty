@@ -26,4 +26,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/sugarycandybar/Hosty.git
-        commit: eef3979dec74b4dd92742e63ac1aee37fa512047
+        commit: 70fb11eee8446331de7f19dd3fd0ea84498444d2
