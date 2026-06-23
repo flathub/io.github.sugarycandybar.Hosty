@@ -3,6 +3,7 @@ runtime: org.gnome.Platform
 runtime-version: "50"
 sdk: org.gnome.Sdk
 command: hosty
+separate-locales: false
 finish-args:
   - --share=network
   - --share=ipc
@@ -16,4 +17,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/sugarycandybar/Hosty.git
-        commit: f57b74902a1945feb3086d5482e71778617ee17a
+        commit: c8fa0874b55ddd769dad4c54a43a63c3f040fc23
