@@ -14,7 +14,9 @@ modules:
   - python3-requirements.json
   - name: hosty
     buildsystem: meson
+    config-opts:
+      - -Dbeta=true
     sources:
       - type: git
         url: https://github.com/sugarycandybar/Hosty.git
-        commit: 08854abb92bf322604dd2fb654d887fd732bf882
+        commit: 41d4547d102d769aab1fc8ff4b71fcac2d31e3e4
